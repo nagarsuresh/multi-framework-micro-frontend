@@ -65,7 +65,7 @@
           "options": {
             "browserTarget": "mfe1:build",
             "extraWebpackConfig": "webpack.config.js",
-            "port": 4201
+            "port": 5201
           },
           "configurations": {
             "production": {
@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "mfe1"
+  "defaultProject": "mfe1",
+  "cli": {
+    "analytics": "60bdb4b1-eae2-4ecd-ae91-76349755db3e"
+  }
 }

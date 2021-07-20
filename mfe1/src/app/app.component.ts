@@ -3,10 +3,13 @@ import { Router } from '@angular/router';
 
 declare const require: any;
 
+// import { ClarityIcons, userIcon, cloudIcon, vmBugIcon, folderIcon } from '@cds/core/icon';
+
+// ClarityIcons.addIcons(userIcon, cloudIcon, vmBugIcon, folderIcon);
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
 
