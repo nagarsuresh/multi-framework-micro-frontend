@@ -5,7 +5,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 
-if ( environment.production) {
+if (environment.production) {
   enableProdMode();
 }
 
@@ -15,7 +15,7 @@ const ngVersion = require('../package.json').dependencies['@angular/core'];
 let platform = (window as any).plattform[ngVersion];
 if (!platform) {
   platform = platformBrowser();
-  (window as any).plattform[ngVersion] = platform; 
+  (window as any).plattform[ngVersion] = platform;
 }
 platform.bootstrapModule(AppModule)
   .catch(err => console.error(err));

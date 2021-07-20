@@ -65,7 +65,8 @@
           "options": {
             "browserTarget": "shell:build",
             "extraWebpackConfig": "webpack.config.js",
-            "port": 4200
+            "port": 5200,
+            "open": true
           },
           "configurations": {
             "production": {
